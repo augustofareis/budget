@@ -1,10 +1,10 @@
-import warnings
+#import warnings
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 from filtros import *  # Importando a função
 from dados import *
-warnings.filterwarnings('ignore')
+#warnings.filterwarnings('ignore')
 
 # Configurando o layout
 st.set_page_config( layout="wide")
